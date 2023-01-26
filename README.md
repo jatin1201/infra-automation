@@ -11,7 +11,7 @@ Challenge 1
 
 This script is used to extract metadata from an EC2 instance on AWS. The script can be used to extract specific keys from the metadata of an instance by passing the keys as command-line arguments.
 
-## Prerequisites ##
+### Prerequisites ###
 
 - AWS account
 - Python 3
