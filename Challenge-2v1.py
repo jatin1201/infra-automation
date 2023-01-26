@@ -4,7 +4,7 @@ import json
 # Connect to the AWS EC2 service
 ec2 = boto3.client('ec2')
 
-# Specify the instance ID to query , do add instance ID which meta you want fetch
+# Specify the instance ID to query , do add instance ID which meta you want fetch.
 instance_id = 'i-xxxxxxxxxxx'
 
 # Query the meta data of the specified instance
