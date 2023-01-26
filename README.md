@@ -21,7 +21,7 @@ This script is used to extract metadata from an EC2 instance on AWS. The script 
 
 ### Usage ###
 
-Test with V1 Script
+TEST with v1 Script
 
 - Clone or download the script to your local machine. 
  
@@ -33,6 +33,17 @@ Test with V1 Script
  
  ``` python Challenge-2v1.py ```
  
+- The script will return the metadata in JSON format for the specified keys.
+
+
+TEST With v2 Script 
+
+- Install the required libraries by running pip install boto3 on your command line. 
+
+- Run the script by providing the instance ID and the keys you want to extract as command-line arguments (USE this with v2 Script)
+
+``` python ec2_metadata.py <instance_id> <keys_to_extract> ```
+
 - The script will return the metadata in JSON format for the specified keys.
 
  
