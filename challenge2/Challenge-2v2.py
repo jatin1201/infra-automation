@@ -34,3 +34,7 @@ if __name__ == '__main__':
     instance_id = sys.argv[1]
     keys_to_extract = sys.argv[2:]
     
+    # Call the function to get the metadata and print the result
+    print(get_ec2_metadata(instance_id, keys_to_extract))
+
+
