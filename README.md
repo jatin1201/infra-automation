@@ -31,7 +31,7 @@ TEST with v1 Script
 
 - Run the script by executing the following command in your terminal:
  
- ``` python Challenge-2v1.py ```
+  ``` python Challenge-2v1.py ```
  
 - The script will return the metadata in JSON format for the specified keys.
 
@@ -42,7 +42,7 @@ TEST With v2 Script
 
 - Run the script by providing the instance ID and the keys you want to extract as command-line arguments (USE this with v2 Script)
 
-``` python ec2_metadata.py <instance_id> <keys_to_extract> ```
+``` python Challenge-2v2.py  <instance_id> <keys_to_extract> ```
 
 - The script will return the metadata in JSON format for the specified keys.
 
