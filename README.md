@@ -47,3 +47,25 @@ TEST With v2 Script
 - The script will return the metadata in JSON format for the specified keys.
 
  
+ ## Challenge 3 ##
+ 
+This function takes in a nested object and a key in the format "a/b/c" and returns the corresponding value. This function uses the "/" as a delimiter to split the key and access the nested object:
+ 
+ 
+ ### Prerequisites ###
+ 
+ - Python 3
+
+ ### Usage ###
+ 
+ - Clone this repo or download this script 
+ 
+ - Open a terminal or command prompt.
+
+ - Navigate to the directory where you have cloned/download the code file.
+
+ - Run the command ```python <filename>.py```, where <filename> is the name of the code file.
+
+ - The code will execute and the output will be displayed on the terminal/command prompt.
+
+ - If you have added any test cases in the test_get_value() function, you can check the output of the code by running the test function.
