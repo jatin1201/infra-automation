@@ -1,8 +1,37 @@
 # infra-automation
 
-Challenge 1
+## Challenge 1 ##
+
+This module will launch 3-tier application infrastructure over the aws
+
+### Prerequisites ###
+
+- AWS Account  
+
+- Terraform 
+
+- Add aws profile name in the provider.tf
+
+- AWS CLI must be configured 
+
+- SSH Key (must be created prior execution of the code and update variable file also please make sure key was created in same region as the provider, and if you need to go with default ssh key name you need to create key named as test-devops-keypair in us-west-2 region)
+
+- Change variables.tf if needed (just in case you need to change some naming conventions this is totally optional)
 
 
+### Usage ###
+
+- Clone this github repo
+
+- cd into challenge1
+
+- Run terraform init
+
+- After the successful execution of init phase of terraform we need to test our code via dry run or more of validation of the code need to be done for that run below command
+
+- Run terraform plan 
+
+- Run terraform apply 
 
 
 
